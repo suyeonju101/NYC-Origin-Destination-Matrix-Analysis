@@ -34,6 +34,8 @@ Specifically, the following datasets were used to build the OD matrix:
    - A crosswalk file for New York state that maps geographic units (e.g., Census blocks) to their corresponding higher-level geographic identifiers (e.g., counties, tracts).
    - Used to translate and aggregate OD data for specific geographic regions.
 
+*Note. These two data files are in zip file called **`2023.zip`** This zipfile will be automatically unzipped for you as running ipynb files.*
+
 ### Processed Data
 - **`od_matrix.csv`**:
   - Derived from the raw datasets mentioned above.
