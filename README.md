@@ -8,16 +8,20 @@ This project focuses on traffic simulation using the Simulation of Urban Mobilit
 - **SUMO Preparation**: Notebooks for preparing simulation inputs compatible with SUMO.
 
 ## Repository Structure
-
-$ tree
-.
 ├── data
+
 │   ├── uszips.csv
+
 │   └── 2023.zip
+
 ├── SUMO_preparation.ipynb # Jupyter Notebook for preparing SUMO files
+
 ├── SUMO_files.zip # Preconfigured SUMO files generated from running SUMO_preparation.ipynb
+
 ├── ODmatrix_creation.ipynb # Jupyter Notebook for creating OD matrices
+
 ├── od_matrix.csv # Created OD matrix from running ODmatrix_creation.ipynb
+
 └── README.md
 
 ## Data Sources
