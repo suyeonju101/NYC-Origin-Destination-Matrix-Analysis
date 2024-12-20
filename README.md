@@ -44,19 +44,19 @@ Specifically, the following datasets were used to build the **OD matrix**:
    - A crosswalk file for New York state that maps geographic units (e.g., Census blocks) to their corresponding higher-level geographic identifiers (e.g., counties, tracts).
    - Used to translate and aggregate OD data for specific geographic regions.
 
-*Note. These two data files are in zip file called **`2023.zip`** This zip file contains the necessary data files and will be automatically unzipped when running the Jupyter notebooks.* *Similarly, **'2024.zip`** contains the most recently updated data files (data from the year 2022, updated in 2024). The OD matrix built from these files are not used for creating SUMO files due to the smaller volume of data compared to the previous year.*
+*Note. These two data files are in zip file called **`2023.zip`** This zip file contains the necessary data files and will be automatically unzipped when running the Jupyter notebooks.* *Similarly, **`2024.zip`** contains the most recently updated data files (data from the year 2022, updated in 2024). The OD matrix built from these files are not used for creating SUMO files due to the smaller volume of data compared to the previous year.*
 
 ### Processed Data
 - **`od_matrix.csv`**:
   - Derived from the raw datasets in **`2023.zip`** mentioned above.
-  - Obtained by running **`ODmatrix_creation.ipynb**.
+  - Obtained by running **`ODmatrix_creation.ipynb`**.
   - Represented aggregated OD traffic demand (flow) in a simplified format.
 
 ### Simulation Files
 - **SUMO Configuration Files (`SUMO_files.zip`)**:
   - Built based on the OD matrix **`od_matrix.csv`**.
   - Included node file (`.nod.xml`), edge file (`.edg.xml`), and route files (`.rou.xml`) prepared for SUMO.
-  - Future work: Need network file (.net.xml), edge-type file (.type.xml), and configureation file (.sumocfg).
+  - Future work: Need network file (`.net.xml`), edge-type file (`.type.xml`), and configureation file (`.sumocfg`).
 
 ## How to Run
 
